@@ -10,11 +10,7 @@ void setup() {
 }
 
 void loop() {
-  // Some example procedures showing how to display to the pixels:
-  colorWipe(strip.Color(255, 0, 0), 500); // Set Pixel to Red
-  colorWipe(strip.Color(0, 255, 0), 500); // Set Pixel to Green
-  colorWipe(strip.Color(0, 0, 255), 500); // Set Pixel to Blue
-//  rainbowCycle(20); // Slowly change the colors fading between each
+  rainbowCycle(20); // Slowly change the colors fading between each
 }
 
 // Fill the dots one after the other with a color
